@@ -4,11 +4,11 @@
 *
 */
 
+
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 html {
-  font-size: 8px;
-  font-family: "PT Sans", sans-serif;
+  font-size: 8px;font-family: 'Nunito', sans-serif;
   scroll-behavior: smooth;
   text-transform: capitalize;
 }
@@ -56,10 +56,11 @@ html {
   background-size: 600% 100%;
   animation: gradient 10s linear infinite;
   animation-direction: alternate;
+
  
 }
 
-@keyframes gradient {
+ @keyframes gradient {
   0% {
     background-position: 0%;
   }
@@ -80,9 +81,10 @@ html {
   background-position: center;
 
   width: 100%;
-  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 
   height: 90vh;
+  
 }
 .titles h1 {
   color: var(--primary);
@@ -343,8 +345,7 @@ label:hover {
   height: 470px;
   margin: 20px;
   padding: 50px;
-  border-radius: 10px;
-  font-family: "PT Sans", sans-serif;
+  border-radius: 10px;font-family: 'Nunito', sans-serif;
 
   font-style: normal;
   font-size: 1em;
@@ -370,8 +371,8 @@ label:hover {
 }
 
 .text-card p {
-  padding: 2px 0;
-  line-height: 1.75;
+  padding: 1px 0;
+  line-height: 1.30;
   color: #7b8591;
   font-size: 2rem;
 }
@@ -394,3 +395,7 @@ label:hover {
     top: -2rem;
   }
 }
+
+
+
+
