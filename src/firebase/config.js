@@ -6,14 +6,14 @@ import "firebase/auth";
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyAEoVJF_Yl-axMeDyeAqsIcc4CyXmZ9L1g",
-  authDomain: "fire-gram-photography.firebaseapp.com",
-  databaseURL: "https://fire-gram-photography.firebaseio.com",
-  projectId: "fire-gram-photography",
-  storageBucket: "fire-gram-photography.appspot.com",
-  messagingSenderId: "266660088274",
-  appId: "1:266660088274:web:e9fecd779252fda75e600b"
-};
+    apiKey: "AIzaSyABrkPGdhg8qsUOPdcovvbxhbdiL8kJzLU",
+    authDomain: "photography-1cf12.firebaseapp.com",
+    databaseURL: "https://photography-1cf12.firebaseio.com",
+    projectId: "photography-1cf12",
+    storageBucket: "photography-1cf12.appspot.com",
+    messagingSenderId: "699877754061",
+    appId: "1:699877754061:web:7923fe23af28121bfe9584"
+  };
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
 

@@ -1,0 +1,5 @@
+- hide the upload button for users or visitor excluding the addmin
+- optimize (compress) at least the column image b/c it uploads and show up by it's original size therefore it is bad for user data usage
+- change download image
+
+
